@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>message</key>
+		<string>Sore elbow, decided to start a phantom enterprise.</string>
+		<key>from</key>
+		<string>Frederick C. Lee</string>
+	</dict>
+	<dict>
+		<key>message</key>
+		<string>Hey, what&apos;s with the elbow?</string>
+		<key>from</key>
+		<string>Richard Brauer</string>
+	</dict>
+	<dict>
+		<key>message</key>
+		<string>I have a major motion picture in the works....</string>
+		<key>from</key>
+		<string>Richard Brauer</string>
+	</dict>
+	<dict>
+		<key>from</key>
+		<string>Frederick C. Lee</string>
+		<key>message</key>
+		<string>Clouds.  What about you?</string>
+	</dict>
+	<dict>
+		<key>message</key>
+		<string>Hi! What&apos;s Up?</string>
+		<key>from</key>
+		<string>Richard Brauer</string>
+	</dict>
+</array>
+</plist>
