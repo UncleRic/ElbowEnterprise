@@ -232,7 +232,7 @@ static const NSInteger navOverlayTag = 100;
 
 - (NSInteger)tableView:(UITableView*)table numberOfRowsInSection:(NSInteger)section {
     // This is the number of chat messages.
-    return [self.chat count];
+    return (self.chat).count;
 }
 
 // -----------------------------------------------------------------------------------------------------------------------
@@ -250,7 +250,7 @@ static const NSInteger navOverlayTag = 100;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     
-    NSDictionary *chatMessage = [self.chat objectAtIndex:index.row];
+    NSDictionary *chatMessage = (self.chat)[index.row];
     
     cell.textLabel.text = chatMessage[@"message"];
     cell.detailTextLabel.text = chatMessage[@"from"];
