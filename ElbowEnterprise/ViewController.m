@@ -39,7 +39,7 @@ static const NSInteger navOverlayTag = 100;
         rightDisplayRect = CGRectMake((width/2.0),0.0,width/2.0, height);
         
         NSString *path = [[NSBundle mainBundle] pathForResource:@"Data" ofType:@"plist"];
-        self.chat = [NSArray arrayWithContentsOfFile:path];
+        self.chat = [NSMutableArray arrayWithContentsOfFile:path];
     }
     return self;
 }
